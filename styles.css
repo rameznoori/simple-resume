@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    margin: 0px 300px;
+}
+header{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.bg-gray{
+    background: rgb(212, 210, 210);
+    padding: 10px;
+}
+footer > p{
+    text-align: center;
+    background: rgb(108, 108, 240);
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 50px;
+}
