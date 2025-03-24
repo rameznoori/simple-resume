@@ -1,6 +1,7 @@
 body{
     height: 100vh;
     margin: 0px 300px;
+    min-width: 450px;
 }
 header{
     text-align: center;
@@ -19,4 +20,11 @@ footer > p{
     padding: 10px;
     font-size: 12px;
     margin-top: 50px;
+}
+@media (max-width:890px){
+    body{
+        height: 100vh;
+        margin: 5px 50px;
+        min-width: 280px;
+    }
 }
